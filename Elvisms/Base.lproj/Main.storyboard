@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Elvisms" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="State your Elvisism" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BUF-Tp-4ag">
+                                <frame key="frameInset" minX="80" minY="20" width="204" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="204" id="oS3-uw-Ppq"/>
+                                    <constraint firstAttribute="width" constant="204" id="skR-i5-phf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YG4-fQ-WPo">
+                                <frame key="frameInset" minX="38" minY="434" width="295" height="106"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="295" id="xU1-Ty-cUI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                                <state key="normal" title="Click me pretty mama!!">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Wcg-X0-8s9" kind="show" id="NtZ-UA-wiQ"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="elvis.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="9Bu-Vr-8PY">
+                                <frame key="frameInset" minX="67" minY="68" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="fbx-pF-Gr5"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Cool Elvis Sayings" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YJC-Nw-v0W">
+                                <frame key="frameInset" minX="16" minY="214" width="343" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="eyN-aX-k13"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Your Favorite Song" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0qF-DH-9oV">
+                                <frame key="frameInset" minX="16" minY="302" width="343" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="XyZ-rs-ZnG"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="evi.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="9tU-Pc-LD5">
+                                <frame key="frameInset" minX="50" minY="449" width="122" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Pick your King" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UL5-yl-TTb">
+                                <frame key="frameInset" minX="16" minY="363" width="343" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="213" id="fyQ-l5-VHW"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="This is the Elvis quote page!" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ynY-vz-HD1">
+                                <frame key="frameInset" minX="80" minY="611" width="214" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="214" id="YAV-Gj-Oh3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P4h-j1-GpG">
+                                <frame key="frameInset" minX="104" minY="543" width="156" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="133" id="0Pv-G0-9X3"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="156" id="225-om-cgA"/>
+                                    <constraint firstAttribute="width" constant="46" id="Iuv-ma-TeA"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="94" id="IyJ-D3-CFR"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="133" id="Uyh-Ug-NGm"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="113" id="hRA-te-GEF"/>
+                                </constraints>
+                                <state key="normal" title="The List Page">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="nt1-Cv-DfH" kind="show" id="sM6-m9-Yc0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0qF-DH-9oV" firstAttribute="top" secondItem="YJC-Nw-v0W" secondAttribute="bottom" constant="58" id="0sr-UL-J8O"/>
+                            <constraint firstItem="P4h-j1-GpG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="24P-nH-ZvL"/>
+                            <constraint firstItem="BUF-Tp-4ag" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8tK-5e-Rta"/>
+                            <constraint firstItem="P4h-j1-GpG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AmE-fl-9y6"/>
+                            <constraint firstItem="P4h-j1-GpG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BtV-mL-FLs"/>
+                            <constraint firstItem="UL5-yl-TTb" firstAttribute="top" secondItem="0qF-DH-9oV" secondAttribute="bottom" constant="31" id="C6K-cA-WUH"/>
+                            <constraint firstItem="BUF-Tp-4ag" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="CKW-oc-8O0"/>
+                            <constraint firstItem="9Bu-Vr-8PY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FC1-oC-BXM"/>
+                            <constraint firstItem="BUF-Tp-4ag" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="G6f-f2-Xm1"/>
+                            <constraint firstItem="YG4-fQ-WPo" firstAttribute="top" secondItem="UL5-yl-TTb" secondAttribute="bottom" constant="41" id="Gwn-fs-ua3"/>
+                            <constraint firstItem="ynY-vz-HD1" firstAttribute="top" secondItem="P4h-j1-GpG" secondAttribute="bottom" constant="23" id="NAM-aC-cos"/>
+                            <constraint firstItem="YG4-fQ-WPo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="P46-n9-24r"/>
+                            <constraint firstItem="P4h-j1-GpG" firstAttribute="top" secondItem="YG4-fQ-WPo" secondAttribute="bottom" constant="3" id="Pzs-na-pYw"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ynY-vz-HD1" secondAttribute="bottom" constant="20" id="SsW-WU-hPF"/>
+                            <constraint firstItem="YG4-fQ-WPo" firstAttribute="top" secondItem="UL5-yl-TTb" secondAttribute="bottom" constant="41" id="Tp9-1C-GFj"/>
+                            <constraint firstItem="9Bu-Vr-8PY" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="48" id="WFQ-fU-YKD"/>
+                            <constraint firstItem="P4h-j1-GpG" firstAttribute="top" secondItem="YG4-fQ-WPo" secondAttribute="bottom" constant="8" id="Yze-y8-tNL"/>
+                            <constraint firstItem="P4h-j1-GpG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="e4W-ul-N7n"/>
+                            <constraint firstItem="0qF-DH-9oV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="e97-V6-ggZ"/>
+                            <constraint firstItem="UL5-yl-TTb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eJA-9d-3qW"/>
+                            <constraint firstItem="P4h-j1-GpG" firstAttribute="top" secondItem="YG4-fQ-WPo" secondAttribute="bottom" constant="8" id="fwM-TC-apn"/>
+                            <constraint firstItem="ynY-vz-HD1" firstAttribute="top" secondItem="P4h-j1-GpG" secondAttribute="bottom" constant="33" id="iA4-mT-RWc"/>
+                            <constraint firstItem="P4h-j1-GpG" firstAttribute="top" secondItem="YG4-fQ-WPo" secondAttribute="bottom" constant="8" id="mLF-Gf-sRz"/>
+                            <constraint firstItem="P4h-j1-GpG" firstAttribute="top" secondItem="YG4-fQ-WPo" secondAttribute="bottom" constant="18" id="nME-dg-Jmg"/>
+                            <constraint firstItem="ynY-vz-HD1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ovO-M4-QUH"/>
+                            <constraint firstItem="P4h-j1-GpG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rZl-CI-WJB"/>
+                            <constraint firstItem="YJC-Nw-v0W" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tjw-Sr-fcz"/>
+                            <constraint firstItem="YJC-Nw-v0W" firstAttribute="top" secondItem="9Bu-Vr-8PY" secondAttribute="bottom" constant="18" id="v6h-jg-nSi"/>
+                            <constraint firstItem="ynY-vz-HD1" firstAttribute="top" secondItem="P4h-j1-GpG" secondAttribute="bottom" constant="23" id="woY-Vt-UUz"/>
+                            <constraint firstItem="P4h-j1-GpG" firstAttribute="top" secondItem="YG4-fQ-WPo" secondAttribute="bottom" constant="18" id="zKu-uG-Lsu"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="dropKing" destination="UL5-yl-TTb" id="Tnb-4B-h2v"/>
+                        <outlet property="pickYourKing" destination="UL5-yl-TTb" id="esB-Z2-B9H"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="37.331334332833585"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="OaT-sO-8Rs">
+            <objects>
+                <viewController id="Wcg-X0-8s9" customClass="SecondViewController" customModule="Elvisms" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PY1-88-YXA"/>
+                        <viewControllerLayoutGuide type="bottom" id="O25-Z7-1NB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="t9O-iv-x5V">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Elivisisms" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wCE-4J-9ky">
+                                <frame key="frameInset" minX="115" minY="28" width="144" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="144" id="s9E-IG-GcO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iru-TJ-8l1">
+                                <frame key="frameInset" minX="161" minY="77" width="41" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="41" id="q5E-tL-JyT"/>
+                                </constraints>
+                                <state key="normal" title="Home">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="mzi-4J-GeO"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="1eap.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="UYV-qd-Rhe">
+                                <frame key="frameInset" minX="137" minY="230" width="101" height="127"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="101" id="B4c-zv-Ltb"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oue-Bv-U3M">
+                                <frame key="frameInset" minX="137" minY="588" width="99" height="23"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="99" id="Yta-ul-6ul"/>
+                                    <constraint firstAttribute="width" constant="99" id="iZU-OM-AzO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="The List">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="nt1-Cv-DfH" kind="show" id="OmO-5i-gQi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Iru-TJ-8l1" firstAttribute="centerX" secondItem="t9O-iv-x5V" secondAttribute="centerX" id="8eL-qW-V1l"/>
+                            <constraint firstItem="UYV-qd-Rhe" firstAttribute="top" secondItem="Iru-TJ-8l1" secondAttribute="bottom" constant="123" id="GKL-Vj-OXN"/>
+                            <constraint firstItem="Oue-Bv-U3M" firstAttribute="centerX" secondItem="t9O-iv-x5V" secondAttribute="centerX" id="Lyw-OL-e5u"/>
+                            <constraint firstItem="UYV-qd-Rhe" firstAttribute="centerX" secondItem="t9O-iv-x5V" secondAttribute="centerX" id="SrJ-PD-LD9"/>
+                            <constraint firstItem="Oue-Bv-U3M" firstAttribute="centerX" secondItem="t9O-iv-x5V" secondAttribute="centerX" id="Tgv-6O-XJp"/>
+                            <constraint firstItem="Oue-Bv-U3M" firstAttribute="top" secondItem="UYV-qd-Rhe" secondAttribute="bottom" constant="231" id="X6R-42-Vtx"/>
+                            <constraint firstItem="Iru-TJ-8l1" firstAttribute="top" secondItem="wCE-4J-9ky" secondAttribute="bottom" constant="8" id="YP0-IM-CwR"/>
+                            <constraint firstItem="wCE-4J-9ky" firstAttribute="centerX" secondItem="t9O-iv-x5V" secondAttribute="centerX" id="aDR-vH-aVa"/>
+                            <constraint firstItem="wCE-4J-9ky" firstAttribute="top" secondItem="PY1-88-YXA" secondAttribute="bottom" constant="8" id="fkQ-Aq-urm"/>
+                            <constraint firstItem="O25-Z7-1NB" firstAttribute="top" secondItem="UYV-qd-Rhe" secondAttribute="bottom" constant="310" id="l8o-i7-hvG"/>
+                            <constraint firstItem="UYV-qd-Rhe" firstAttribute="top" secondItem="Iru-TJ-8l1" secondAttribute="bottom" constant="123" id="x74-b8-XsI"/>
+                            <constraint firstItem="Oue-Bv-U3M" firstAttribute="top" secondItem="UYV-qd-Rhe" secondAttribute="bottom" constant="267" id="zel-pe-rLV"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HN9-sy-aQl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="824.79999999999995" y="36.431784107946029"/>
+        </scene>
+        <!--Third View Controller-->
+        <scene sceneID="LpI-xa-mW1">
+            <objects>
+                <viewController id="nt1-Cv-DfH" customClass="ThirdViewController" customModule="Elvisms" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="R5f-JV-KPx"/>
+                        <viewControllerLayoutGuide type="bottom" id="j57-UZ-pMo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aH2-Ye-L9O">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nUJ-rt-03Z">
+                                <frame key="frameInset" minX="167" minY="593" width="41" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="41" id="DcD-wj-pNg"/>
+                                </constraints>
+                                <state key="normal" title="Home">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="1ZH-mU-g3V"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="The List" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="exn-fL-KjH">
+                                <frame key="frameInset" minX="134" minY="59" width="107" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="107" id="J1f-Tv-cac"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="elviscape.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="89v-ko-bob">
+                                <frame key="frameInset" minX="76" minY="157" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="eaQ-o7-iNm"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="89v-ko-bob" firstAttribute="top" secondItem="exn-fL-KjH" secondAttribute="bottom" constant="52" id="0oX-JF-LNL"/>
+                            <constraint firstItem="nUJ-rt-03Z" firstAttribute="centerX" secondItem="aH2-Ye-L9O" secondAttribute="centerX" id="6uk-d4-0yf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="89v-ko-bob" secondAttribute="trailing" constant="43" id="8nZ-5q-Icg"/>
+                            <constraint firstItem="89v-ko-bob" firstAttribute="centerX" secondItem="aH2-Ye-L9O" secondAttribute="centerX" id="Agg-gL-j0j"/>
+                            <constraint firstItem="89v-ko-bob" firstAttribute="leading" secondItem="aH2-Ye-L9O" secondAttribute="leadingMargin" constant="60" id="Kyy-Ym-9lx"/>
+                            <constraint firstItem="exn-fL-KjH" firstAttribute="centerX" secondItem="aH2-Ye-L9O" secondAttribute="centerX" id="YxQ-n7-E9m"/>
+                            <constraint firstItem="nUJ-rt-03Z" firstAttribute="top" secondItem="89v-ko-bob" secondAttribute="bottom" constant="308" id="bjF-Tv-d60"/>
+                            <constraint firstItem="exn-fL-KjH" firstAttribute="top" secondItem="R5f-JV-KPx" secondAttribute="bottom" constant="39" id="dsf-RQ-Ws9"/>
+                            <constraint firstItem="nUJ-rt-03Z" firstAttribute="top" secondItem="89v-ko-bob" secondAttribute="bottom" constant="308" id="lLu-xE-Hgh"/>
+                            <constraint firstItem="89v-ko-bob" firstAttribute="top" secondItem="exn-fL-KjH" secondAttribute="bottom" constant="52" id="q3G-1T-hqa"/>
+                            <constraint firstItem="nUJ-rt-03Z" firstAttribute="top" secondItem="89v-ko-bob" secondAttribute="bottom" constant="308" id="svn-hg-nwk"/>
+                            <constraint firstItem="89v-ko-bob" firstAttribute="centerX" secondItem="aH2-Ye-L9O" secondAttribute="centerX" id="zRo-0I-oqG"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CcA-wy-Hms" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1564" y="44.527736131934034"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1eap.jpg" width="203" height="248"/>
+        <image name="elvis.jpg" width="369" height="136"/>
+        <image name="elviscape.jpg" width="299" height="168"/>
+        <image name="evi.jpg" width="288" height="175"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="1ZH-mU-g3V"/>
+        <segue reference="sM6-m9-Yc0"/>
+    </inferredMetricsTieBreakers>
+</document>
